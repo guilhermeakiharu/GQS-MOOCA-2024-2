@@ -37,6 +37,8 @@ if __name__ == "__main__":  # Isso só será executado se o script for executado
     adicionar_estado("Bahia")
     adicionar_estado("Minas Gerais")
     adicionar_estado("São Paulo")
+    adicionar_estado("Recife")
+
     adicionar_estado("Rio de Janeiro")
     imprimir_estados()
     contar_estados()
