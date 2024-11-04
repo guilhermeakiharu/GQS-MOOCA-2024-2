@@ -35,6 +35,7 @@ def imprimir_estados():
 # Exemplo de uso das funções
 if __name__ == "__main__":  # Isso só será executado se o script for executado diretamente
     adicionar_estado("Bahia")
+    adicionar_estado("Minas Gerais")
     adicionar_estado("São Paulo")
     adicionar_estado("Rio de Janeiro")
     imprimir_estados()
