@@ -12,7 +12,7 @@ def adicionar_produto(nome_produto):
         print(f"O produto '{nome_produto}' já existe.")
 
 # Função para remover um estado
-def remover_estado(nome_produto):
+def remover_produto(nome_produto):
     if nome_produto in produtos:
         produtos.remove(nome_produto)
         print(f"Produto '{nome_produto}' removido com sucesso.")
