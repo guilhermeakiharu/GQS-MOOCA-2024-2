@@ -7,17 +7,17 @@ produtos = []
 def adicionar_produto(nome_produto):
     if nome_produto not in produtos:
         produtos.append(nome_produto)
-        print(f"Estado '{nome_produto}' adicionado com sucesso.")
+        print(f"Produto '{nome_produto}' adicionado com sucesso.")
     else:
-        print(f"O estado '{nome_produto}' já existe.")
+        print(f"O produto '{nome_produto}' já existe.")
 
 # Função para remover um estado
 def remover_estado(nome_produto):
     if nome_produto in produtos:
         produtos.remove(nome_produto)
-        print(f"Estado '{nome_produto}' removido com sucesso.")
+        print(f"Produto '{nome_produto}' removido com sucesso.")
     else:
-        print(f"O estado '{nome_produto}' não existe na lista.")
+        print(f"O produto '{nome_produto}' não existe na lista.")
 
 # Função para contar o número de estados
 def contar_produtos():
