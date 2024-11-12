@@ -1,4 +1,4 @@
-# estado.py
+
 
 # Lista para armazenar os produtos
 produtos = []
