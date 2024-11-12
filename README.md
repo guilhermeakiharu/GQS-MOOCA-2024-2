@@ -1,5 +1,5 @@
-# GQS-MOOCA-2024-2
+# BLOCKSTOCK
 ________________________
-workflow teste automatizados para o git hub
+Gerenciamento de estoque para materias de construção
 ___________________________
 github actions/pytest
