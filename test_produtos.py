@@ -2,7 +2,7 @@ import pytest
 from io import StringIO
 from unittest.mock import patch
 
-# Suponha que o código acima esteja no arquivo 'produtos.py'
+
 
 # Importar as funções que você deseja testar
 from produtos import adicionar_produto, remover_produto, contar_produtos, imprimir_produtos, produtos
